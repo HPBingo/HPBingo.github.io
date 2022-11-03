@@ -115,7 +115,19 @@ bingoGenerator = function(bingoListR, opts) {
         }
 
         function boxMullerRand() {
-            return Math.sqrt(-2 * Math.log(1 - Math.random())) * Math.cos(2 * Math.PI * Math.random());
+            var u = 0, v = 0;
+            while(u == 0) {
+                u = Math.random();
+            }
+            while(v == 0) {
+                v = Math.random();
+            }
+            var val = Math.sqrt(-2 * Math.log(u)) * Math.cos(2 * Math.PI * v);
+            val = val / 3;
+            if (val > 1 || val < -1) {
+                return boxMullerRand();
+            }
+            return val;
         }
 
         function difficulty(i) {
