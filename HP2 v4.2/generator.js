@@ -245,7 +245,7 @@ bingoGenerator = function(bingoListR, opts) {
         if (MODE == "lockout") {
             var usedLockout = [];
             var lockoutGoals = Math.round(boxMullerRand() * 2 + 2);
-            for (var i = 0; i < lockoutGoals; i++) {
+            for (var i = 0; i <= lockoutGoals; i++) {
                 var b = parseInt(Math.random() * 25) + 1;
                 var goal;
                 do {
