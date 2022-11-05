@@ -123,7 +123,7 @@ var bingoList = {
 			{ "difficulty": 20, "id": "spiders-out", "name": "Kill {10-15} spiders outside the Aragog fight", "rowtypes": { "card": 0, "bean": 0, "star": 0 }, "skill": 0, "time": 1, "types": { "kill": 1, "selfsynergy": -1 }, "weight": 0 },
 		],
 		"21": [
-			{ "difficulty": 21, "id": "completion-stars", "name": "4 Spell Challenge completion stars", "rowtypes": { "card": 0, "bean": 0, "star": 25 }, "skill": 0, "time": 1, "types": { "multi": 1, "selfsynergy": -2 }, "weight": 0 },
+			{ "difficulty": 21, "id": "completion-stars", "name": "{4-5} completion stars", "rowtypes": { "card": 0, "bean": 0, "star": 25 }, "skill": 0, "time": 1, "types": { "multi": 1, "selfsynergy": -2 }, "weight": 0 },
 			{ "difficulty": 21, "id": "diffindo-cards", "name": "All 8 Wizard Cards in Diffindo", "rowtypes": { "card": 10, "bean": 0, "star": 25 }, "skill": 0, "time": 1, "types": { "diffindo": 1, "selfsynergy": 0 }, "weight": 0 },
 			{ "difficulty": 21, "id": "buy-8", "name": "Buy {6-10} Wizard Cards", "rowtypes": { "card": 10, "bean": 50, "star": 0 }, "skill": 0, "time": 1, "types": { "duels": 1, "selfsynergy": 0 }, "weight": 0 },
 		],
