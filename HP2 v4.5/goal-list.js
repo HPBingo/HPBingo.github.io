@@ -27,7 +27,7 @@ var bingoList = {
 			{ "difficulty": 4, "id": "boom-frogs", "name": "{3-4} chocolate frogs in Boomslang", "rowtypes": { "card": 0, "bean": 0, "star": 0 }, "skill": 0, "time": 1, "types": { "boom": 1, "selfsynergy": 0 }, "weight": 0 },
 			{ "difficulty": 4, "id": "willow-secrets", "name": "Activate both secrets in Willow from out of bounds", "rowtypes": { "card": 0, "bean": 0, "star": 0 }, "skill": 0, "time": 1, "types": { "willow": 1, "selfsynergy": 0 }, "weight": 0 },
 			{ "difficulty": 4, "id": "willow-lumos", "name": "Cast at all 3 Gargoyles in Willow", "rowtypes": { "card": 0, "bean": 0, "star": 0 }, "skill": 0, "time": 1, "types": { "willow": 1, "selfsynergy": 0 }, "weight": 0 },
-			{ "difficulty": 4, "id": "bath-gnomes", "name": "Spawn {10-15} Gnomes in the girl's bathroom", "rowtypes": { "card": 0, "bean": 0, "star": 0 }, "skill": 0, "time": 1, "types": { "castle": 1, "selfsynergy": 0 }, "weight": 0 },
+			{ "difficulty": 4, "id": "bath-gnomes", "name": "Spawn {4-7} Gnomes in the girl's bathroom", "rowtypes": { "card": 0, "bean": 0, "star": 0 }, "skill": 0, "time": 1, "types": { "castle": 1, "selfsynergy": 0 }, "weight": 0 },
 			{ "difficulty": 4, "id": "hospital-cauldron", "name": "Use the potion cauldron in hospital wing", "rowtypes": { "card": 0, "bean": 0, "star": 0 }, "skill": 0, "time": 1, "types": { "castle": 1, "selfsynergy": 0 }, "weight": 0 },
 		],
 		"5": [
