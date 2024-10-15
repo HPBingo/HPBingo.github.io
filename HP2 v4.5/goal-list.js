@@ -149,7 +149,7 @@ var bingoList = {
 		"24": [
 			{ "difficulty": 24, "id": "stars-31", "name": "{27-36} different Challenge Stars", "rowtypes": { "card": 0, "bean": 0, "star": 100 }, "skill": 0, "time": 1, "types": { "stars": 1, "selfsynergy": -1.5 }, "weight": 0 },
 			{ "difficulty": 24, "id": "stars-5", "name": "{4-7} different Challenge Stars from each spell challenge", "rowtypes": { "card": 0, "bean": 0, "star": 60 }, "skill": 0, "time": 1, "types": { "multi": 1, "selfsynergy": -2 }, "weight": 0 },
-			{ "difficulty": 24, "id": "bark", "name": "Collect {11-15} unique Wiggenweld Bark", "rowtypes": { "card": 0, "bean": 0, "star": 0 }, "skill": 0, "time": 1, "types": { "multi": 1, "selfsynergy": 0 }, "weight": 0 },
+			{ "difficulty": 24, "id": "bark", "name": "Collect {11-15} unique Wiggentree Bark", "rowtypes": { "card": 0, "bean": 0, "star": 0 }, "skill": 0, "time": 1, "types": { "multi": 1, "selfsynergy": 0 }, "weight": 0 },
 			{ "difficulty": 24, "id": "bronze-20", "name": "{18-25} Bronze Wizard Cards", "rowtypes": { "card": 40, "bean": 0, "star": 0 }, "skill": 0, "time": 1, "types": { "cards": 1, "selfsynergy": -1 }, "weight": 0 },
 		],
 		"25": [
