@@ -239,12 +239,17 @@ bingoGenerator = function(bingoListR, opts) {
             } while ((synergy != 0) && (j < possibleList.length));
             used.push(minSynObj.value);
             bingoBoard[i].types = minSynObj.value.types;
+            bingoBoard[i].id = minSynObj.value.id;
+            let amount = minSynObj.value.amount || 1;
             var name = minSynObj.value[LANG] || minSynObj.value.name;
             name = name.replaceAll(/\{(\d+)-(\d+)\}/g, (match, p1, p2, offset, string) => {
                 var low = parseInt(p1);
                 var high = parseInt(p2);
                 var v = parseInt(Math.random() * (high - low + 1));
-                return "" + (low + v);
+                let val = low + v;
+                amount *= val;
+                bingoBoard[i].uniqueAmount = val;
+                return "" + val;
             });
             name = name.replaceAll(/\{([\d,]+)\}/g, (match, p1, offset, string) => {
                 var parts = p1.split(",");
@@ -253,6 +258,8 @@ bingoGenerator = function(bingoListR, opts) {
             });
             bingoBoard[i].name = name;
             bingoBoard[i].synergy = minSynObj.synergy;
+            bingoBoard[i].amount = amount;
+            bingoBoard[i].triggers = minSynObj.value.triggers || null;
         }
         if (MODE == "lockout") {
             var usedLockout = [];
