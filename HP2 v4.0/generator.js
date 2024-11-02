@@ -221,6 +221,7 @@ bingoGenerator = function(bingoListR, opts) {
             bingoBoard[i].types = minSynObj.value.types;
             bingoBoard[i].name = minSynObj.value[LANG] || minSynObj.value.name;
             bingoBoard[i].synergy = minSynObj.synergy;
+            bingoBoard[i].amount = minSynObj.value.amount || 1;
         }
         return bingoBoard;
     }
